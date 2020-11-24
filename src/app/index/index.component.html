@@ -1,0 +1,17 @@
+<h1>Welcome to the game!</h1>
+
+
+
+
+    <p>{{difficulty}}</p>
+
+    <button (click)="changeToEasy()">Easy</button>
+    <button (click)="changeToNormal()">Normal</button>
+    <button (click)="changeToHard()">Hard</button>
+
+    <button  (click)="createGame()" >Bevestigen</button>
+
+    <a [routerLink]="['/game', gameId]" >Start Game!</a>
+
+
+    

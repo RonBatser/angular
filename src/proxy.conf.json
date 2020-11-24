@@ -1,0 +1,8 @@
+{
+    "/fellowship": {
+        "target": "https://hackthefuture.dev.freebility.be",
+        "secure": true,
+        "logLevel": "debug",
+        "changeOrigin": true
+    }
+}
