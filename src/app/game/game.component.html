@@ -1,10 +1,12 @@
-<p>game works!</p>
 
 
-<h1>{{game}}</h1>
 
-<div class="board">
+<h1>Mcafee Game</h1>
 
+<div class="boardTen">
+<div  class="tile {{tile.v}}" *ngFor="let tile of board">
+    <p>{{tile.v}}</p>
+</div>
 </div>
 
 

@@ -1,0 +1,44 @@
+body{
+
+}
+
+.boardTen{
+    display: flex;
+    width: 600px;
+    background-color: grey;
+    flex-wrap: wrap;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.boardTen .tile{
+    width: 10%;
+    height: 10%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    box-sizing: border-box;
+   
+}
+
+.boardTen .e{
+    background-color: grey;
+}
+
+.boardTen .p{
+    background-color: blue;
+}
+
+.boardTen  .n{
+    background-color: red;
+}
+.boardTen  .m{
+    background-color: gold;
+}
+
+.boardTen  .f{
+   background-color: orange;
+}

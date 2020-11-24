@@ -1,0 +1,27 @@
+h1{
+    font-size: 2.3rem;
+    text-align: center;
+}
+
+button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1%;
+    width: 120px;
+    color: white;
+    background-color: rgb(29,30,43);
+}
+
+.confirm{
+    margin-top: 3%;
+}
+
+.start{
+    font-size: 1.4rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    display: block;
+    text-align: center;
+}
